@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Details</title>
+</head>
+<body>
+
+<h2>Student Details Form</h2>
+
+<form action="student" method="get">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" required></td>
+        </tr>
+
+        <tr>
+            <td>Roll No</td>
+            <td><input type="text" name="roll" required></td>
+        </tr>
+
+        <tr>
+            <td>Course</td>
+            <td>
+                <select name="course">
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BTech">BTech</option>
+                    <option value="MTech">MTech</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
